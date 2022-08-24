@@ -1,13 +1,13 @@
 {
-    "name": "@peopledata/dat",
+    "name": "dabee",
     "version": "1.0.0",
     "description": "A peer-to-peer and end-to-end encrypted internet pipe powered by peopleswarm",
     "main": "index.js",
     "bin": {
-      "dat": "./bin.js"
+      "dabee": "./bin.js"
     },
     "scripts": {
-      "test": "standard"
+      "test": "standard --fix"
     },
     "dependencies": {
       "@peopledata/datube": "^1.2.0",
@@ -25,9 +25,5 @@
     "url": "git+https://github.com/peopledata/dat.git"
   },
   "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/peopledata/dat/issues"
-  },
-  "homepage": "https://github.com/peopledata/dat#readme"
+  "license": "MIT"
 }
